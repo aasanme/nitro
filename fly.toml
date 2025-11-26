@@ -1,9 +1,10 @@
-# fly.toml app configuration file generated for hello-static on 2024-09-17T09:44:10-05:00
+# fly.toml app configuration file generated for nitro-x-api on 2025-11-26T15:58:25Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'hello-static'
+app = 'nitro-x-api'
+primary_region = 'iad'
 
 [build]
 
@@ -19,3 +20,4 @@ app = 'hello-static'
   memory = '256mb'
   cpu_kind = 'shared'
   cpus = 1
+  memory_mb = 256
